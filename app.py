@@ -62,7 +62,7 @@ class primes:
 
                 return self.primes[idx]
 
+app.p = primes()
 
 if __name__ == '__main__':
-    app.p = primes()
     app.run()
