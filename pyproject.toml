@@ -1,0 +1,14 @@
+[tool.poetry]
+name = 'primes'
+version = '0.1.0'
+authors = ["Christopher De Vries <christopher.devries@secunetics.com>"]
+description = "All prime numbers"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

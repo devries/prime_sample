@@ -1,0 +1,3 @@
+{% for p in primes %}
+<li{% if loop.index == page_size %} hx-get="/primes?page={{ start }}" hx-trigger="revealed" hx-swap="afterend" hx-indicator="#spinner" {% endif %}>{{ p }}</li>
+{% endfor %}
