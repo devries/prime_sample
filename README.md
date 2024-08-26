@@ -34,7 +34,7 @@ poetry run python app.py
 Build the container using the command
 
 ```
-docker built -t primeweb:latest .
+docker build -t primeweb:latest .
 ```
 
 # Run Docker container
